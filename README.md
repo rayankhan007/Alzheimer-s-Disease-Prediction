@@ -21,25 +21,23 @@ The dataset consists of MRI scans labeled into different stages of Alzheimer’s
 
 ## ⚙️ Installation  
 To set up the project, clone the repository and install dependencies:  
+
 ```bash
 git clone https://github.com/rayankhan007/Alzheimer-s-Disease-Prediction.git  
 cd Alzheimer-s-Disease-Prediction  
 pip install -r requirements.txt
 ▶️ Usage
 Train the model using:
-
 bash
 Copy
 Edit
 python train.py
 Evaluate the model:
-
 bash
 Copy
 Edit
 python evaluate.py
 Make predictions on new MRI images:
-
 bash
 Copy
 Edit
@@ -54,28 +52,6 @@ Precision, Recall, and F1-score
 🔹 Implementing transfer learning with pre-trained models
 🔹 Fine-tuning hyperparameters for improved performance
 🔹 Deploying the model using a web-based interface
-
-📜 License
-This project is open-source and available under the MIT License.
-
-🤝 Acknowledgments
-This project is inspired by research in medical imaging and deep learning applications in healthcare. Special thanks to the dataset providers and contributors to open-source medical AI projects.
-
-🔗 GitHub Repository: Alzheimer’s Disease Prediction
-
-yaml
-Copy
-Edit
-
----
-
-### ✅ Why is this README professional?  
-✔ **Clear and structured sections**  
-✔ **Formatted commands for easy execution**  
-✔ **Includes features, architecture, installation, usage, and results**  
-✔ **Looks visually appealing**  
-
-You can **directly copy and paste** this into your `README.md` file. 🚀
 
 
 
