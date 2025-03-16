@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+seaborn
+ydata-profiling
+scikit-learn
+
+
+
+
+
+
+pip install pandas
