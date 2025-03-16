@@ -20,38 +20,34 @@ The dataset consists of MRI scans labeled into different stages of Alzheimer’s
 - **Cross-Entropy Loss Function** for optimization  
 
 ## ⚙️ Installation  
-To set up the project, clone the repository and install dependencies:  
+#### To set up the project, clone the repository and install dependencies:
+git clone https://github.com/rayankhan007/Alzheimer-s-Disease-Prediction.git 
+cd Alzheimer-s-Disease-Prediction
+pip install -r requirements.txt 
+  
+## 🚀 Usage  
 
-```bash
-git clone https://github.com/rayankhan007/Alzheimer-s-Disease-Prediction.git  
-cd Alzheimer-s-Disease-Prediction  
-pip install -r requirements.txt
-▶️ Usage
-Train the model using:
-bash
-Copy
-Edit
+### 🚀 Train the model:
 python train.py
-Evaluate the model:
-bash
-Copy
-Edit
-python evaluate.py
-Make predictions on new MRI images:
-bash
-Copy
-Edit
-python predict.py --image path/to/image.jpg
-📊 Results
-The trained model achieves high accuracy in classifying Alzheimer's disease stages. Evaluation is performed using:
 
-Confusion matrix
-Accuracy and loss plots
-Precision, Recall, and F1-score
-📝 Future Improvements
-🔹 Implementing transfer learning with pre-trained models
-🔹 Fine-tuning hyperparameters for improved performance
-🔹 Deploying the model using a web-based interface
+### Evaluate the model:
+python evaluate.py
+
+### Make predictions on new MRI images:
+python predict.py --image path/to/image.jpg
+
+## 📊 Results  
+The trained model achieves high accuracy in classifying Alzheimer's disease stages. Evaluation is performed using:  
+
+- ✅ Confusion matrix  
+- ✅ Accuracy and loss plots  
+- ✅ Precision, Recall, and F1-score  
+
+## 📝 Future Improvements  
+- 🔹 Implementing transfer learning with pre-trained models  
+- 🔹 Fine-tuning hyperparameters for improved performance  
+- 🔹 Deploying the model using a web-based interface  
+
 
 
 
