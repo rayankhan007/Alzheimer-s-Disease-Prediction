@@ -48,7 +48,8 @@ The trained model achieves high accuracy in classifying Alzheimer's disease stag
 - 🔹 Fine-tuning hyperparameters for improved performance  
 - 🔹 Deploying the model using a web-based interface  
 
-
+## 📜 License  
+This project is licensed under the [MIT License](LICENSE).
 
 
 
